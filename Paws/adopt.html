@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+	<title>Pawsitive Haven Animal Rescue | Adopt</title>
+	<link rel="icon" type="image/x-icon" href="images/pawprint.ico">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h1>Welcome to Pawsitive Haven</h1>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="adopt.html">Adopt a Pet</a></li>
+		<li>In the News</li>
+		<li>Contact Us</li>
+	</ul>
+	<h2>Adopt Your New Best Friend</h2>
+	<p>
+	<img src="images/jessie.jpg" alt="Jessie the Orange Tabby Cat With Red Handkerchief" width="550" height="550">
+	<img src="images/edgar-and-allen.jpg" alt="Edgar and Allen the Vizsla Dogs, Standing on Brown Wood Plank" width="550" height="550">
+	<img src="images/murphy.jpg" alt="Murphy the Bearded Dragon" width="550" height="550">
+	</p>
+	
+	<h2>Adoption Fees</h2>
+	<table>
+		<tr>
+			<td>Dogs</td>
+			<td>&#36;325</td>
+		</tr>
+		<tr>
+			<td>Puppies (6 months &#38; under)</td>
+			<td>&#36;450</td>
+		</tr>
+		<tr>
+			<td>Cats</td>
+			<td>&#36;150</td>
+		</tr>
+		<tr>
+			<td>Kittens (6 months &#38; under)</td>
+			<td>&#36;250</td>
+		</tr>
+		<tr>
+			<td>Rabbits</td>
+			<td>&#36;50</td>
+		</tr>
+		<tr>
+			<td>Other Small Animals</td>
+			<td>&#36;20 to &#36;65</td>
+		</tr>
+	</table>
+	<p>Adoption fee includes all vaccinations and spay or neuter, if applicable.</p>
+	
+	<h2>Apply to Adopt a Pet</h2>
+	<form method="post" action="http://data.rebol.com/cgi-bin/test-cgi.cgi">
+	
+		<p>First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		City: <input type="text" name="city">
+		State:
+			<select name="state">
+				<option value="Illinois">Illinois</option>
+				<option value="Indiana">Indiana</option>
+				<option value="Michigan">Michigan</option>
+				<option value="Wisconsin">Wisconsin</option>
+			</select>
+		</p>
+		
+		<p>I am interested in adopting a:<br>
+		<input type="radio" value="Dog" name="pettype"> Dog
+		<input type="radio" value="Puppy" name="pettype"> Puppy
+		<input type="radio" value="Cat" name="pettype"> Cat
+		<input type="radio" value="Kitten" name="pettype"> Kitten
+		<input type="radio" value="Rabbit" name="pettype"> Rabbit
+		<input type="radio" value="Other" name="pettype"> Other Small Animal </p>
+		<p> Comments (optional):<br>
+		<textarea name="comments" cols=30 rows=4></textarea></p>
+		<p><input type="checkbox" name="mailinglist" checked="checked">Yes, please add me to your mailing list.</p>
+		<input type="submit" value="Place Order"><br>
+	</form>
+	<p>Created by Michael Gramajo for CIS 181 Web Development I at <a href="https://www.ccc.edu/wright/home/">Wilbur Wright College</a>.
+	</p>
+</body>

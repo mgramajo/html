@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* Color palette: Color Collage - https://www.design-seeds.com/2024/07/color-collage.html */
+
+body	{
+	background-color: #DDE0B6;
+	color: #2C4044;
+	font-family: Garamond, "Times New Roman", Times, Serif;
+	font-size: 15px;
+}
+		
+a	{
+	color:#2C868E;
+	font-weight: bold;
+	text-decoration: none;
+}
+		
+table	{
+	background-color: #C2E4DE;
+	font-weight: bold;
+	width: 50%;
+	margin: auto;
+	border-width:1px;
+	border-style:solid;
+	border-color:#2C868E;
+	border-collapse:collapse;
+		
+		
+}
+td {
+	padding: 0.5em;
+	border-width:1px;
+	border-style:solid;
+	border-color:#2C868E;
+	border-collapse:collapse;
+}
+		
+form	{
+	background-color: #C2E4DE;
+	line-height: 1.5;
+	width: 50%;
+	margin:auto;
+	padding: 2em;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#2C868E;
+	border-collapse: collapse;
+		
+}
+		
+h1	{
+	font-family: Helvetica, Verdana, Arial, "Sans-Serif";
+	text-align: center;
+}
+h2	{
+	font-family: Helvetica, Verdana, Arial, "Sans-Serif";
+	text-align: center;
+}
+		
